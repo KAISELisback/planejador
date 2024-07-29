@@ -3,9 +3,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email(to_addrs, body):
-    from_addr = "bcsa3mlkypw5ubno@ethereal.email"
-    login = "bcsa3mlkypw5ubno@ethereal.email"
-    password = "b6gbZ9zcjvH6twFXzm"
+    from_addr = "exemplo.email"
+    login = "exemplo.email"
+    password = "alguma_senha"
 
     msg = MIMEMultipart()
     msg["from"] = "viagens_confirmar@email.com"
